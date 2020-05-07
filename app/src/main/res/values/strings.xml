@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Sportsbet</string>
+    <string name="action_settings">Settings</string>
+    <string name="h">H</string>
+    <string name="v">V</string>
+    <string name="d">D</string>
+    <string name="hyphen">-</string>
+    <string name="title_activity_ticket">TicketActivity</string>
+    <string name="events">Meccsek</string>
+    <string name="ticket">Szelvény</string>
+    <string name="balance">Mérleg</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="previous_tickets">Korábbiak</string>
+    <string name="SavedTicketStakeText">Tét: %0$d Ft</string>
+    <string name="TicketStakeLabel">Tét:</string>
+    <string name="noBet">NO BET</string>
+    <string name="adapterStake">Tét: %d Ft</string>
+    <string name="holderPrize">Nyeremény: %d Ft</string>
+    <string name="ticketDraw">Döntetlen</string>
+    <string name="balanceAllProfit">Profit: %d Ft</string>
+    <string name="messageTicketSave">Szelvény elmentve!</string>
+    <string name="ticketFragmentPrize">Nyeremény: %s</string>
+    <string name="networkError">Network request error occurred, check LOG</string>
+    <string name="balanceAllStake">Összes tét: %d Ft</string>
+    <string name="balanceAllPrize">Összes nyeremény: %d Ft</string>
+    <string name="saveButtonText">Mentés</string>
+    <string name="ticketIsWinner">Nyertes:</string>
+</resources>

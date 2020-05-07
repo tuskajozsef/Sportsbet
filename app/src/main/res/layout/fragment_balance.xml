@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FragmentBalance"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:textSize="16sp"
+        android:paddingVertical="5dp"
+        android:id="@+id/AllStake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Összes tét: 23 400 Ft"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:paddingVertical="5dp"
+        android:id="@+id/AllPrize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Összes nyeremény: 46 000 Ft"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:paddingVertical="5dp"
+        android:id="@+id/Balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Profit: 23 400 Ft"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:id="@+id/ProfitGraph" />
+
+</LinearLayout>
